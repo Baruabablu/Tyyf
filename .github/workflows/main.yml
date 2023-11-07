@@ -87,7 +87,8 @@ build:
 
       run: .\ngrok\ngrok.exe tcp 3389
 
-   - name: Time counter
+
+    - name: Time counter
 
    
-   - run: Start-sleep -Seconds 259200
+    - run: Start-sleep -Seconds 259200
